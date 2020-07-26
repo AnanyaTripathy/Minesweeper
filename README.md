@@ -14,9 +14,3 @@ Differences from classic
  * left click on a revealed cell with exactly as many neighbors as its number will automatically flag neighbors
  * cheat mode - click bottom left of game to reveal all mines
  
-todo
-----
- * add icons for mines, flags, and start button (win, lose, reset)
- * **hint system** - when stuck, point out rules that can be applied
- * **evil minesweeper** - for uncertain situations, always set the mines to be where the user clicked
- * **good minesweeper** - in a situation where no mines can be flagged absolutely, reveal a mine
