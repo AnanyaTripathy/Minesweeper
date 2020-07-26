@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="minesweeper.css">
+</head>
+<body>
+  <p id='mine-count'></p>
+  <div id="minesweeper-main" class="no-highlight">
+    <div id="game-container"></div>
+    <div id="help-container">
+      <p>Misclicks: <span id="misclick-counter">0</span></p>
+    </div>
+  </div>
+
+  <script src='jquery-1.11.1.min.js'></script>
+  <script src='minesweeper.js'></script>
+
+  <script>
+    var ms = new Minesweeper('#minesweeper-main');
+    //ms.init(ms.SETTINGS.BEGINNER);
+    ms.init(ms.SETTINGS.EXPERT);
+  </script>
+</body>
+</html>
